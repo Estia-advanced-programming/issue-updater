@@ -8,4 +8,4 @@ jobs:
     steps:
       -uses: Estia-advanced-programming/pandora-public/issueGenerator@v1.0.1-alpha
         with:
-          destination-repo: ${{ github. }}
+          destination-repo: ${{ github.repository }}
