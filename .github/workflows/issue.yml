@@ -1,0 +1,11 @@
+name: GitHub Classroom Workflow
+on: [push]
+
+jobs:
+  copy:
+    name: Copy Issues
+    runs-on: ubuntu-latest
+    steps:
+      -uses: Estia-advanced-programming/pandora-public/issueGenerator@v1.0.1-alpha
+        with:
+          destination-repo: ${{ github. }}
